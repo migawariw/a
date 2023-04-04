@@ -4,8 +4,8 @@ function clearResult() {
   result.value = '';
 }
 
-const ÷ ='/';
-const × ='*';
+// const ÷ ='/';
+// const × ='*';
 
 function displayResult(value) {
   result.value += value;
@@ -26,7 +26,7 @@ result.value = result.value / 100;
 });
 
 document.getElementById('divide').addEventListener('click', () => {
-displayResult('÷');
+displayResult('/');
 });
 
 document.getElementById('7').addEventListener('click', () => {
@@ -42,7 +42,7 @@ displayResult('9');
 });
 
 document.getElementById('multiply').addEventListener('click', () => {
-displayResult('×');
+displayResult('*');
 });
 
 document.getElementById('4').addEventListener('click', () => {
