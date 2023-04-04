@@ -4,6 +4,9 @@ function clearResult() {
   result.value = '';
 }
 
+const ÷ ='/';
+const × ='*';
+
 function displayResult(value) {
   result.value += value;
 }
